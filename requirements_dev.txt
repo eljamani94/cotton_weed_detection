@@ -4,6 +4,9 @@ setuptools
 twine
 wheel
 
+# Computer Vision & ML
+3lc-ultralytics
+
 # python and debugging
 ipdb
 ipykernel
