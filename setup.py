@@ -15,13 +15,13 @@ if os.path.isfile('requirements_dev.txt'):
     requirements.extend([x.strip() for x in content if 'git+' not in x])
 
 
-setup(name='packagename',
+setup(name='cotton_weed',
       version="0.0.1",
-      description="Project Description",
+      description="Cotton-Weed Detection Challenge",
       packages=find_packages(),
       install_requires=requirements,
       test_suite='tests',
       # include_package_data: to install data from MANIFEST.in
       include_package_data=True,
-      # scripts=['scripts/packagename-run'],
+      # scripts=['scripts/cotton_weed_run'],
       zip_safe=False)
